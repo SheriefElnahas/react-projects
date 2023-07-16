@@ -6,9 +6,12 @@
 }
 body {
   font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  overflow: hidden;
+
 }
 .container {
-  max-width:1200px;
+  max-width: 1000px;
   margin-inline: auto;
 }
 .header--container {
@@ -17,7 +20,6 @@ body {
   justify-content: space-between;
 }
 .header {
-
   background: #21222a;
   padding: 30px 20px;
   color: orange;
@@ -43,5 +45,39 @@ body {
 .header__info {
   font-weight: 600;
   font-size: 16px;
-  color:#DEEBF8;
+  color: #deebf8;
+}
+
+/* Hero */
+.hero {
+  background: #282d35;
+  color: #fff;
+
+  padding: 80px 20px 100px 20px;
+}
+.hero__heading {
+  font-size: 39px;
+  font-weight: bold;
+  letter-spacing: -1px;
+
+  padding-bottom: 36px;
+}
+
+.hero__list {
+  padding-left: 40px;
+  padding-bottom: 100px;
+}
+
+::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+.hero__item {
+  font-size: 16px;
+  padding-bottom: 20px;
+  max-width: 400px;
 }

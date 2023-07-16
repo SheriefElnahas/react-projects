@@ -8,7 +8,7 @@ This Simple react app was created to practice react basics
 
 ## Website URL
 
-You can check the live website at this URL [React Fun Fcats](sherief-elnahas-react-fun-facts.netlify.app)
+You can check the live website at this URL [React Fun Fcats](sherief-elnahas-react-fun-facts.netlify.app/)
 
 ## This project helped me to learn and pratice the following :
 
